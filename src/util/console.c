@@ -23,11 +23,15 @@ void runConsole()
 
 
     long long cyclecounter = 0;
+
+    printf( "$ ");
+
     while(1)
     {
         ++cyclecounter;
 		c = hal_io_serial_getc( SerialA );
 		hal_io_serial_putc( SerialA, c );
+
         if(c == '\r')
         {
             printf("\n");
@@ -103,16 +107,40 @@ void runConsole()
 
             }
 
+            // if inputted app exists, execute it
+            if(linebuffer[0] != '\0') 
+            {
+                char filename[1024] = { '\0' };
+                strcpy(filename,linebuffer);
+                HANDLE fh = 0;
+                FIND_DATA find;
+                fh = sdFindFirstFile(filename, &find);
+                if(fh != 0)
+                {
+                    char *buf;
+                    int ret;
+                    buf = loadBinaryFromFile(filename);
+                    ret = ((int (*)(void))buf)();
+                    printf( "Return value from app: %d\n", ret );
+                }
+                else {
+                    printf( "No such file\n" );                    
+                }
+            }
+
             memset(linebuffer,'\0',1024);
             index = 0;
-            printf("\n");
             hal_io_serial_puts(SerialA,"\n");
-        } 
+        }
         else 
         {
             linebuffer[index++] = c;
         }
 		printf( "%c", c );
+
+        if (index == 0) {
+            printf( "$ ");
+        }
 	}
 }
 
