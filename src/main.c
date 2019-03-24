@@ -40,23 +40,24 @@ int main (void) {
   	
 
 	
-	// HANDLE fHandle = sdCreateFile("Alice.txt", GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
-	// if (fHandle != 0) {
-	// 	uint32_t bytesRead;
+	HANDLE fHandle = sdCreateFile("Alice.txt", GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
+	if (fHandle != 0) {
+		uint32_t bytesRead;
 
-	// 	if ((sdReadFile(fHandle, &buffer[0], 500, &bytesRead, 0) == true))  {
-	// 			buffer[bytesRead-1] = '\0';  ///insert null char
-	// 			printf("File Contents: %s", &buffer[0]);
-	// 	}
-	// 	else{
-	// 		printf("Failed to read" );
-	// 	}
+		if ((sdReadFile(fHandle, &buffer[0], 500, &bytesRead, 0) == true))  {
+				buffer[bytesRead-1] = '\0';  ///insert null char
+			//	printf("File Contents: %s", &buffer[0]);
+				printf("%02X\n", buffer);
+		}
+		else{
+			printf("Failed to read" );
+		}
 
-	// 	// Close the file
-	// 	sdCloseHandle(fHandle);
+		// Close the file
+		sdCloseHandle(fHandle);
 
-	// }
-	exec_app();
+	}
+	//exec_app();
 
 	hal_io_video_init();
 
