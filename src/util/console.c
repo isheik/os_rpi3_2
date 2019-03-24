@@ -1,6 +1,7 @@
 //#include <stdbool.h>            // Neede for bool
 //#include <stdint.h>             // Needed for uint32_t, uint16_t etc
 #include <string.h>             // Needed for memcpy
+#include <stdlib.h>
 #include "../drivers/stdio/emb-stdio.h"            // Needed for printf
 #include "../drivers/sdcard/SDCard.h"
 #include "../hal/hal.h"
@@ -19,7 +20,7 @@ void runConsole()
     char linebuffer[1024] = { '\0' };
     size_t index = 0;
     char currdirr[1024] = { '\0' };
-    char buffer[500];
+    char buffer[1024];
 
 
     long long cyclecounter = 0;
@@ -39,38 +40,42 @@ void runConsole()
             // sysinfo command
             if(strcmp(linebuffer,"sysinfo")==0)
             {
-                printf("Kernel               ---  .::|[O-SU]|::. \nCPU ARCHITECTURE     ---    aarch_64\nThe System Has Been Running for %d cycles",cyclecounter);
+                printf("Kernel               ---  .::|[O-SU]|::. \nCPU ARCHITECTURE     ---    aarch_64\nThe System Has Been Running for %d cycles\n",cyclecounter);
             }
 
             // ls command
-            if(strcmp(linebuffer,"ls")==0)
+            else if(strcmp(linebuffer,"ls")==0)
             {
                 char dirbuff[1024] = { '\0' };
                 sprintf(dirbuff,"%s\\*.*",currdirr);
                 DisplayDirectory(dirbuff);
             }
             // cd command
-            if(linebuffer[0] == 'c' && linebuffer[1] == 'd' && linebuffer[2] ==' ')
+            else if(linebuffer[0] == 'c' && linebuffer[1] == 'd' && linebuffer[2] ==' ')
             {
                 strcpy(currdirr,strcat(currdirr,linebuffer+3));
-                printf(currdirr);
+                printf("%s\n", currdirr);
             }
             
             // cat command
-            if(linebuffer[0] == 'c' && linebuffer[1] == 'a' && linebuffer[2] == 't' && linebuffer[3] == ' ')
+            else if(linebuffer[0] == 'c' && linebuffer[1] == 'a' && linebuffer[2] == 't' && linebuffer[3] == ' ')
             {
                 char filename[1024] = { '\0' };
                 strcpy(filename,linebuffer+4);
+                //strcpy(currdirr,strcat(currdirr,linebuffer+4));
                 
                 HANDLE fHandle = sdCreateFile(filename, GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
                 if (fHandle != 0)
                 {
                     uint32_t bytesRead;
+                    uint32_t fSize = sdGetFileSize(fHandle, NULL);
+
                     
-                    if ((sdReadFile(fHandle, &buffer[0], 500, &bytesRead, 0) == true))
+//                    if ((sdReadFile(fHandle, &buffer[0], 500, &bytesRead, 0) == true))
+                    if ((sdReadFile(fHandle, &buffer[0], fSize, &bytesRead, 0) == true))
                     {
-                            buffer[bytesRead-1] = '\0';  ///insert null char
-                            printf("File Contents: %s", &buffer[0]);
+                            //buffer[bytesRead+1] = '\0';  ///insert null char
+                            printf("File Contents: %s\n", &buffer[0]);
                     }
                     else
                     {
@@ -80,14 +85,18 @@ void runConsole()
                     // Close the file
                     sdCloseHandle(fHandle);
                 }
-                
+                else {
+                    printf( "No such file\n" );                    
+                }
             }
 
             // dump command
-            if(linebuffer[0] == 'd' && linebuffer[1] == 'u' && linebuffer[2] =='m' && linebuffer[3] =='p' && linebuffer[4] ==' ')
+            else if(linebuffer[0] == 'd' && linebuffer[1] == 'u' && linebuffer[2] =='m' && linebuffer[3] =='p' && linebuffer[4] ==' ')
             {
                 char filename[1024] = { '\0' };
                 strcpy(filename,linebuffer+5);
+//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
+
 
                 //strcpy(currdirr,strcat(currdirr,linebuffer+3));
                 //printf("dump");
@@ -95,10 +104,12 @@ void runConsole()
             }
 
             // exec command
-            if(linebuffer[0] == 'e' && linebuffer[1] == 'x' && linebuffer[2] =='e' && linebuffer[3] =='c' && linebuffer[4] ==' ')
+            else if(linebuffer[0] == 'e' && linebuffer[1] == 'x' && linebuffer[2] =='e' && linebuffer[3] =='c' && linebuffer[4] ==' ')
             {
                 char filename[1024] = { '\0' };
                 strcpy(filename,linebuffer+5);
+//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
+
                 char *buf;
                 int ret;
                 buf = loadBinaryFromFile(filename);
@@ -108,10 +119,12 @@ void runConsole()
             }
 
             // if inputted app exists, execute it
-            if(linebuffer[0] != '\0') 
+            else if(linebuffer[0] != '\0') 
             {
                 char filename[1024] = { '\0' };
                 strcpy(filename,linebuffer);
+//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
+
                 HANDLE fh = 0;
                 FIND_DATA find;
                 fh = sdFindFirstFile(filename, &find);
@@ -122,11 +135,13 @@ void runConsole()
                     buf = loadBinaryFromFile(filename);
                     ret = ((int (*)(void))buf)();
                     printf( "Return value from app: %d\n", ret );
+                    free(buf);
                 }
                 else {
                     printf( "No such file\n" );                    
                 }
             }
+
 
             memset(linebuffer,'\0',1024);
             index = 0;
@@ -187,9 +202,11 @@ void dump(char *filePath) {
                 printf("%c ", *(buffer+i));
             }
 
-            printf("\n\nHex:\n");
+            printf("\nHex:\n");
             for(uint8_t i = 0; i <= (uint8_t)fSize; i++) {
                 printf("%02X ", *(buffer+i));
             }
+            printf("\n");
+            free(buffer);
     }
 }
