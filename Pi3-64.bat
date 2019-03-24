@@ -16,6 +16,8 @@ set "libflags=-lc -lm -lgcc"
 @echo on
 "%bindir%aarch64-elf-gcc.exe" %cpuflags% %asmflags% %linkerflags% -Wl,-T,linker/rpi64.ld ^
   src/main.c ^
+  src/util/console.c ^
+  src/util/loader.c ^
   src/boot/SmartStart64.S ^
   src/boot/rpi-SmartStart.c ^
   src/drivers/stdio/emb-stdio.c ^

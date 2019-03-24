@@ -1,35 +1,37 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o (__locale_ctype_ptr)
+                              C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o (__locale_ctype_ptr)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
-                              C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o (malloc)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (malloc)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o) (_malloc_r)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (__ascii_mbtowc)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
-                              C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o (memcpy)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (memcpy)
+c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (memset)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o) (__malloc_lock)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o (errno)
+                              C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o (errno)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o) (_sbrk_r)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcasecmp.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strcasecmp)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
-                              c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strcat)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (strcat)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o (strchr)
+                              C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o (strchr)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
-                              c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strcmp)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (strcmp)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
-                              c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strcpy)
+                              C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o (strcpy)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlcpy.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strlcpy)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o (strlen)
+                              C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o (strlen)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strncasecmp.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strncasecmp)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strncmp.o)
@@ -37,11 +39,11 @@ c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(l
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strncpy.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strncpy)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o (strnlen)
+                              C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o (strnlen)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strtol.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (strtol)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
-                              C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o (wctob)
+                              C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o (wctob)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (__ascii_wctomb)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
@@ -52,8 +54,6 @@ c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(l
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (_getenv_r)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o) (_impure_ptr)
-c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
-                              c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o) (memset)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-environ.o)
                               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-getenv_r.o) (environ)
 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-envlock.o)
@@ -63,25 +63,30 @@ Allocating common symbols
 Common symbol       size              file
 
 errno               0x4               c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
-buffer              0x1f4             C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
 
 Discarded input sections
 
- .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
- .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
- .text          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
- .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
- .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
- .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
- .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
- .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cc8nN7VY.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\cc8nN7VY.o
- .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccWECum1.o
- .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccWECum1.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccKtIf2N.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccKtIf2N.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccKtIf2N.o
+ .text          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+ .data          0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\ccTCQdbZ.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\ccTCQdbZ.o
+ .bss           0x0000000000000000        0x0 C:\Users\isheik\AppData\Local\Temp\cc9b2l0a.o
+ .comment       0x0000000000000000       0x5f C:\Users\isheik\AppData\Local\Temp\cc9b2l0a.o
  .text          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
@@ -155,6 +160,8 @@ Discarded input sections
  .debug_frame   0x0000000000000000      0x130 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
  .text          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
@@ -192,37 +199,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .text.strcat   0x0000000000000000       0x74 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_info    0x0000000000000000      0x9c0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_abbrev  0x0000000000000000      0x23b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_loc     0x0000000000000000      0x12e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_aranges
-                0x0000000000000000       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_ranges  0x0000000000000000       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_line    0x0000000000000000      0x2d1 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
- .debug_str     0x0000000000000000      0x61e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .comment       0x0000000000000000       0x5f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .debug_frame   0x0000000000000000       0x38 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
- .text          0x0000000000000000       0xa4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .debug_line    0x0000000000000000       0xf0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .debug_info    0x0000000000000000       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .debug_abbrev  0x0000000000000000       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .debug_aranges
-                0x0000000000000000       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .debug_str     0x0000000000000000      0x147 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
- .text          0x0000000000000000      0x1b8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
- .debug_line    0x0000000000000000      0x12e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
- .debug_info    0x0000000000000000       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
- .debug_abbrev  0x0000000000000000       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
- .debug_aranges
-                0x0000000000000000       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
- .debug_str     0x0000000000000000      0x147 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
  .text          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlcpy.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlcpy.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlcpy.o)
@@ -354,8 +338,6 @@ Discarded input sections
  .rodata._global_impure_ptr
                 0x0000000000000000        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
  .comment       0x0000000000000000       0x5f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
- .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
- .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
  .text          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-environ.o)
  .data          0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-environ.o)
  .bss           0x0000000000000000        0x0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-environ.o)
@@ -395,362 +377,377 @@ RAM              0x0000000000080000 0x0000000008000000 xrw
 Linker script and memory map
 
 
-.text           0x0000000000080000     0xa558
+.text           0x0000000000080000     0xb060
                 0x0000000000080000                . = ALIGN (0x4)
                 0x0000000000080000                __text_start__ = .
                 0x0000000000080000                _start = .
  *(.text.startup)
- .text.startup  0x0000000000080000      0x308 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
+ .text.startup  0x0000000000080000      0x308 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
                 0x000000000008029c                RPi_CpuIdString
                 0x00000000000802b0                EnableInterrupts
                 0x00000000000802b8                DisableInterrupts
                 0x00000000000802c0                CoreExecute
  *(.text .text.* .gnu.linkonce.t.*)
  *fill*         0x0000000000080308        0x8 
- .text          0x0000000000080310      0x388 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+ .text          0x0000000000080310       0x88 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
                 0x0000000000080310                kernel_main
-                0x0000000000080450                DisplayDirectory
-                0x0000000000080580                loadBinaryFromFile
-                0x0000000000080600                exec_app
+ *fill*         0x0000000000080398        0x8 
+ .text          0x00000000000803a0      0x5bc C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+                0x00000000000803a0                DisplayDirectory
+                0x00000000000804d0                dump
+                0x00000000000805f0                runConsole
+ *fill*         0x000000000008095c        0x4 
+ .text          0x0000000000080960       0x80 C:\Users\isheik\AppData\Local\Temp\ccKtIf2N.o
+                0x0000000000080960                loadBinaryFromFile
  .text.ARMaddrToGPUaddr
-                0x0000000000080698        0xc C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
-                0x0000000000080698                ARMaddrToGPUaddr
- *fill*         0x00000000000806a4      0x15c 
+                0x00000000000809e0        0xc C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+                0x00000000000809e0                ARMaddrToGPUaddr
+ *fill*         0x00000000000809ec      0x614 
  .text.GPUaddrToARMaddr
-                0x0000000000080800      0xf84 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
-                0x0000000000080800                GPUaddrToARMaddr
-                0x000000000008080c                c_irq_handler
-                0x0000000000080810                c_irq_identify_and_clear_source
-                0x0000000000080814                irq_handler
-                0x0000000000081000                VectorTable
- *fill*         0x0000000000081784        0xc 
- .text          0x0000000000081790     0x24b0 C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
-                0x00000000000827d0                gpio_setup
-                0x0000000000082840                gpio_output
-                0x00000000000828b0                gpio_input
-                0x00000000000828f0                gpio_checkEvent
-                0x0000000000082930                gpio_clearEvent
-                0x0000000000082970                gpio_edgeDetect
-                0x0000000000082a10                gpio_fixResistor
-                0x0000000000082af0                timer_getTickCount
-                0x0000000000082b20                timer_wait
-                0x0000000000082b80                tick_difference
-                0x0000000000082b90                mailbox_write
-                0x0000000000082bd0                mailbox_read
-                0x0000000000082c20                mailbox_tag_message
-                0x0000000000082dc0                set_Activity_LED
-                0x0000000000082f40                ARM_setmaxspeed
-                0x0000000000082fd0                displaySmartStart
-                0x0000000000083040                Embedded_Console_WriteChar
-                0x00000000000830f0                WriteText
-                0x00000000000831e0                SetDCPenColor
-                0x0000000000083200                SetDCBrushColor
-                0x0000000000083220                MoveToEx
-                0x0000000000083250                LineTo
-                0x0000000000083320                TextOut
-                0x00000000000833a0                BmpOut
-                0x00000000000833f0                CvtBmpLine
-                0x0000000000083790                SmartStartPutPixelRaw
-                0x00000000000837a0                Rectangle
-                0x00000000000837d0                PiConsole_Init
-                0x0000000000083a60                GetConsoleDC
-                0x0000000000083a70                GetConsole_FrameBuffer
-                0x0000000000083a80                GetConsole_Width
-                0x0000000000083a90                GetConsole_Height
-                0x0000000000083aa0                _sbrk
-                0x0000000000083ad0                _kill
-                0x0000000000083af0                _getpid
-                0x0000000000083b00                _read
-                0x0000000000083b10                _close
-                0x0000000000083b20                _lseek
-                0x0000000000083b30                _isatty
-                0x0000000000083b40                _fstat
-                0x0000000000083b50                _exit
-                0x0000000000083b60                _write
- .text          0x0000000000083c40      0xd24 C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
-                0x0000000000083ef0                vsprintf
-                0x0000000000084820                sprintf
-                0x00000000000848a0                printf
- *fill*         0x0000000000084964        0xc 
- .text          0x0000000000084970     0x39ec C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
-                0x0000000000085cd0                sdTransferBlocks
-                0x0000000000086040                sdClearBlocks
-                0x00000000000861c0                getSetNextCluster
-                0x0000000000086410                WildcardMatch
-                0x0000000000086d40                sdFindFirstFile
-                0x0000000000087130                sdFindNextFile
-                0x00000000000871f0                sdFindClose
-                0x0000000000087240                sdCreateFile
-                0x0000000000087670                sdReadFile
-                0x00000000000879b0                sdCloseHandle
-                0x0000000000087a00                sdSetFilePointer
-                0x0000000000087e10                sdGetFileSize
-                0x0000000000087e50                sdInitCard
-                0x0000000000088340                sdCardCSD
- *fill*         0x000000000008835c        0x4 
- .text          0x0000000000088360      0x368 C:\Users\isheik\AppData\Local\Temp\cc8nN7VY.o
-                0x0000000000088360                fonts_is_implemented
-                0x0000000000088380                fonts_char_to_font
-                0x00000000000883a0                fonts_init
- *fill*         0x00000000000886c8        0x8 
- .text          0x00000000000886d0      0xa58 C:\Users\isheik\AppData\Local\Temp\ccWECum1.o
-                0x00000000000886d0                hal_io_init
-                0x00000000000886e0                hal_io_video_init
-                0x00000000000886f0                hal_io_video_line
-                0x00000000000887f0                hal_io_video_putc
-                0x0000000000088aa0                hal_io_video_putc_x_y
-                0x0000000000088ce0                hal_io_video_puts
-                0x0000000000088fb0                hal_io_video_put_pixel
-                0x0000000000088fe0                hal_io_serial_init
-                0x0000000000089080                hal_io_serial_puts
-                0x00000000000890c0                hal_io_serial_putc
-                0x00000000000890f0                hal_io_serial_getc
+                0x0000000000081000      0xf84 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+                0x0000000000081000                GPUaddrToARMaddr
+                0x000000000008100c                c_irq_handler
+                0x0000000000081010                c_irq_identify_and_clear_source
+                0x0000000000081014                irq_handler
+                0x0000000000081800                VectorTable
+ *fill*         0x0000000000081f84        0xc 
+ .text          0x0000000000081f90     0x24b0 C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+                0x0000000000082fd0                gpio_setup
+                0x0000000000083040                gpio_output
+                0x00000000000830b0                gpio_input
+                0x00000000000830f0                gpio_checkEvent
+                0x0000000000083130                gpio_clearEvent
+                0x0000000000083170                gpio_edgeDetect
+                0x0000000000083210                gpio_fixResistor
+                0x00000000000832f0                timer_getTickCount
+                0x0000000000083320                timer_wait
+                0x0000000000083380                tick_difference
+                0x0000000000083390                mailbox_write
+                0x00000000000833d0                mailbox_read
+                0x0000000000083420                mailbox_tag_message
+                0x00000000000835c0                set_Activity_LED
+                0x0000000000083740                ARM_setmaxspeed
+                0x00000000000837d0                displaySmartStart
+                0x0000000000083840                Embedded_Console_WriteChar
+                0x00000000000838f0                WriteText
+                0x00000000000839e0                SetDCPenColor
+                0x0000000000083a00                SetDCBrushColor
+                0x0000000000083a20                MoveToEx
+                0x0000000000083a50                LineTo
+                0x0000000000083b20                TextOut
+                0x0000000000083ba0                BmpOut
+                0x0000000000083bf0                CvtBmpLine
+                0x0000000000083f90                SmartStartPutPixelRaw
+                0x0000000000083fa0                Rectangle
+                0x0000000000083fd0                PiConsole_Init
+                0x0000000000084260                GetConsoleDC
+                0x0000000000084270                GetConsole_FrameBuffer
+                0x0000000000084280                GetConsole_Width
+                0x0000000000084290                GetConsole_Height
+                0x00000000000842a0                _sbrk
+                0x00000000000842d0                _kill
+                0x00000000000842f0                _getpid
+                0x0000000000084300                _read
+                0x0000000000084310                _close
+                0x0000000000084320                _lseek
+                0x0000000000084330                _isatty
+                0x0000000000084340                _fstat
+                0x0000000000084350                _exit
+                0x0000000000084360                _write
+ .text          0x0000000000084440      0xd24 C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+                0x00000000000846f0                vsprintf
+                0x0000000000085020                sprintf
+                0x00000000000850a0                printf
+ *fill*         0x0000000000085164        0xc 
+ .text          0x0000000000085170     0x39ec C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+                0x00000000000864d0                sdTransferBlocks
+                0x0000000000086840                sdClearBlocks
+                0x00000000000869c0                getSetNextCluster
+                0x0000000000086c10                WildcardMatch
+                0x0000000000087540                sdFindFirstFile
+                0x0000000000087930                sdFindNextFile
+                0x00000000000879f0                sdFindClose
+                0x0000000000087a40                sdCreateFile
+                0x0000000000087e70                sdReadFile
+                0x00000000000881b0                sdCloseHandle
+                0x0000000000088200                sdSetFilePointer
+                0x0000000000088610                sdGetFileSize
+                0x0000000000088650                sdInitCard
+                0x0000000000088b40                sdCardCSD
+ *fill*         0x0000000000088b5c        0x4 
+ .text          0x0000000000088b60      0x368 C:\Users\isheik\AppData\Local\Temp\ccTCQdbZ.o
+                0x0000000000088b60                fonts_is_implemented
+                0x0000000000088b80                fonts_char_to_font
+                0x0000000000088ba0                fonts_init
+ *fill*         0x0000000000088ec8        0x8 
+ .text          0x0000000000088ed0      0xa58 C:\Users\isheik\AppData\Local\Temp\cc9b2l0a.o
+                0x0000000000088ed0                hal_io_init
+                0x0000000000088ee0                hal_io_video_init
+                0x0000000000088ef0                hal_io_video_line
+                0x0000000000088ff0                hal_io_video_putc
+                0x00000000000892a0                hal_io_video_putc_x_y
+                0x00000000000894e0                hal_io_video_puts
+                0x00000000000897b0                hal_io_video_put_pixel
+                0x00000000000897e0                hal_io_serial_init
+                0x0000000000089880                hal_io_serial_puts
+                0x00000000000898c0                hal_io_serial_putc
+                0x00000000000898f0                hal_io_serial_getc
  .text.__locale_ctype_ptr
-                0x0000000000089128       0x24 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
-                0x0000000000089128                __locale_ctype_ptr
- *fill*         0x000000000008914c        0x4 
- .text.malloc   0x0000000000089150       0x10 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
-                0x0000000000089150                malloc
+                0x0000000000089928       0x24 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
+                0x0000000000089928                __locale_ctype_ptr
+ *fill*         0x000000000008994c        0x4 
+ .text.malloc   0x0000000000089950       0x10 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
+                0x0000000000089950                malloc
  .text._malloc_r
-                0x0000000000089160      0x7f0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x0000000000089160                _malloc_r
+                0x0000000000089960      0x7f0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x0000000000089960                _malloc_r
  .text.__ascii_mbtowc
-                0x0000000000089950       0x48 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
-                0x0000000000089950                __ascii_mbtowc
- *fill*         0x0000000000089998       0x28 
- .text          0x00000000000899c0      0x16c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
-                0x00000000000899c0                memcpy
- *fill*         0x0000000000089b2c        0x4 
+                0x000000000008a150       0x48 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
+                0x000000000008a150                __ascii_mbtowc
+ *fill*         0x000000000008a198       0x28 
+ .text          0x000000000008a1c0      0x16c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
+                0x000000000008a1c0                memcpy
+ *fill*         0x000000000008a32c       0x14 
+ .text          0x000000000008a340      0x1d8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+                0x000000000008a340                memset
  .text.__malloc_lock
-                0x0000000000089b30        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
-                0x0000000000089b30                __malloc_lock
- *fill*         0x0000000000089b34        0x4 
+                0x000000000008a518        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+                0x000000000008a518                __malloc_lock
+ *fill*         0x000000000008a51c        0x4 
  .text.__malloc_unlock
-                0x0000000000089b38        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
-                0x0000000000089b38                __malloc_unlock
- *fill*         0x0000000000089b3c        0x4 
- .text._sbrk_r  0x0000000000089b40       0x4c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
-                0x0000000000089b40                _sbrk_r
- .text          0x0000000000089b8c       0xdc c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
-                0x0000000000089b8c                strchr
- *fill*         0x0000000000089c68       0x18 
- .text          0x0000000000089c80      0x140 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
-                0x0000000000089c80                strlen
- .text          0x0000000000089dc0       0xe0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
-                0x0000000000089de4                strnlen
- .text.wctob    0x0000000000089ea0       0x84 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
-                0x0000000000089ea0                wctob
- *fill*         0x0000000000089f24        0x4 
+                0x000000000008a520        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+                0x000000000008a520                __malloc_unlock
+ *fill*         0x000000000008a524        0x4 
+ .text._sbrk_r  0x000000000008a528       0x4c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+                0x000000000008a528                _sbrk_r
+ *fill*         0x000000000008a574        0x4 
+ .text.strcat   0x000000000008a578       0x74 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+                0x000000000008a578                strcat
+ .text          0x000000000008a5ec       0xdc c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+                0x000000000008a5ec                strchr
+ *fill*         0x000000000008a6c8       0x38 
+ .text          0x000000000008a700       0xa4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
+                0x000000000008a700                strcmp
+ *fill*         0x000000000008a7a4       0x1c 
+ .text          0x000000000008a7c0      0x1b8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
+                0x000000000008a7c0                strcpy
+ *fill*         0x000000000008a978        0x8 
+ .text          0x000000000008a980      0x140 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+                0x000000000008a980                strlen
+ .text          0x000000000008aac0       0xe0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+                0x000000000008aae4                strnlen
+ .text.wctob    0x000000000008aba0       0x84 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+                0x000000000008aba0                wctob
+ *fill*         0x000000000008ac24        0x4 
  .text.__ascii_wctomb
-                0x0000000000089f28       0x34 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
-                0x0000000000089f28                __ascii_wctomb
- *fill*         0x0000000000089f5c        0x4 
+                0x000000000008ac28       0x34 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+                0x000000000008ac28                __ascii_wctomb
+ *fill*         0x000000000008ac5c        0x4 
  .text._malloc_trim_r
-                0x0000000000089f60      0x10c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
-                0x0000000000089f60                _malloc_trim_r
- *fill*         0x000000000008a06c        0x4 
- .text._free_r  0x000000000008a070      0x2f0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
-                0x000000000008a070                _free_r
- *fill*         0x000000000008a360       0x20 
- .text          0x000000000008a380      0x1d8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
-                0x000000000008a380                memset
+                0x000000000008ac60      0x10c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+                0x000000000008ac60                _malloc_trim_r
+ *fill*         0x000000000008ad6c        0x4 
+ .text._free_r  0x000000000008ad70      0x2f0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+                0x000000000008ad70                _free_r
  *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
  *(.init .init.*)
-                0x000000000008a558                . = ALIGN (0x4)
-                0x000000000008a558                __text_end__ = .
+                0x000000000008b060                . = ALIGN (0x4)
+                0x000000000008b060                __text_end__ = .
 
-.iplt           0x000000000008a558        0x0
- .iplt          0x000000000008a558        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+.iplt           0x000000000008b060        0x0
+ .iplt          0x000000000008b060        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
 
-.bss            0x000000000008a558     0x3340
-                0x000000000008a558                . = ALIGN (0x4)
-                0x000000000008a558                __bss_start__ = .
+.bss            0x000000000008b060     0x314c
+                0x000000000008b060                . = ALIGN (0x4)
+                0x000000000008b060                __bss_start__ = .
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x000000000008a558       0x70 C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
-                0x000000000008a55c                console
- .bss           0x000000000008a5c8     0x25a0 C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
-                0x000000000008a5c8                LOG_ERROR
- .bss           0x000000000008cb68      0xaf4 C:\Users\isheik\AppData\Local\Temp\cc8nN7VY.o
- *fill*         0x000000000008d65c        0x4 
+ .bss           0x000000000008b060       0x70 C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+                0x000000000008b064                console
+ .bss           0x000000000008b0d0     0x25a0 C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+                0x000000000008b0d0                LOG_ERROR
+ .bss           0x000000000008d670      0xaf4 C:\Users\isheik\AppData\Local\Temp\ccTCQdbZ.o
+ *fill*         0x000000000008e164        0x4 
  .bss.__malloc_current_mallinfo
-                0x000000000008d660       0x28 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008d660                __malloc_current_mallinfo
+                0x000000000008e168       0x28 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x000000000008e168                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x000000000008d688        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008d688                __malloc_max_sbrked_mem
+                0x000000000008e190        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x000000000008e190                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x000000000008d690        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008d690                __malloc_max_total_mem
+                0x000000000008e198        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x000000000008e198                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x000000000008d698        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008d698                __malloc_top_pad
+                0x000000000008e1a0        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x000000000008e1a0                __malloc_top_pad
  *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
  *(COMMON)
- COMMON         0x000000000008d6a0      0x1f4 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
-                0x000000000008d6a0                buffer
- COMMON         0x000000000008d894        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
-                0x000000000008d894                errno
-                0x000000000008d898                . = ALIGN (0x4)
-                0x000000000008d898                __bss_end__ = .
+ COMMON         0x000000000008e1a8        0x4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+                0x000000000008e1a8                errno
+                0x000000000008e1ac                . = ALIGN (0x4)
+                0x000000000008e1ac                __bss_end__ = .
 
-.rodata         0x000000000008d898     0x17ac
-                0x000000000008d898                . = ALIGN (0x4)
-                0x000000000008d898                __rodata_start__ = .
+.rodata         0x000000000008e1b0     0x1874
+                0x000000000008e1b0                . = ALIGN (0x4)
+                0x000000000008e1b0                __rodata_start__ = .
  *(.rodata .rodata.*)
- .rodata        0x000000000008d898       0x60 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
  .rodata.str1.8
-                0x000000000008d8f8      0x10c C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
-                                        0x114 (size before relaxing)
- .rodata.cpuid  0x000000000008da04        0xc C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
- .rodata        0x000000000008da10     0x1004 C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
-                0x000000000008ea10                BitFontEnd
- *fill*         0x000000000008ea14        0x4 
+                0x000000000008e1b0        0xc C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+                                         0x14 (size before relaxing)
+ *fill*         0x000000000008e1bc        0x4 
+ .rodata        0x000000000008e1c0       0x60 C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
  .rodata.str1.8
-                0x000000000008ea18       0xec C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
- *fill*         0x000000000008eb04        0x4 
- .rodata        0x000000000008eb08       0x10 C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
- .rodata        0x000000000008eb18       0x28 C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
+                0x000000000008e220      0x1c4 C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+                                        0x1cc (size before relaxing)
+ .rodata.cpuid  0x000000000008e3e4        0xc C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+ .rodata        0x000000000008e3f0     0x1004 C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+                0x000000000008f3f0                BitFontEnd
+ *fill*         0x000000000008f3f4        0x4 
  .rodata.str1.8
-                0x000000000008eb40      0x39a C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
- *fill*         0x000000000008eeda        0x6 
+                0x000000000008f3f8       0xec C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+ *fill*         0x000000000008f4e4        0x4 
+ .rodata        0x000000000008f4e8       0x10 C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+ .rodata        0x000000000008f4f8       0x28 C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
  .rodata.str1.8
-                0x000000000008eee0       0x60 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
+                0x000000000008f520      0x39a C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+ *fill*         0x000000000008f8ba        0x6 
+ .rodata.str1.8
+                0x000000000008f8c0       0x60 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
                                          0x64 (size before relaxing)
  .rodata._ctype_
-                0x000000000008ef40      0x101 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
-                0x000000000008ef40                _ctype_
+                0x000000000008f920      0x101 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+                0x000000000008f920                _ctype_
  *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
-                0x000000000008f044                . = ALIGN (0x4)
- *fill*         0x000000000008f041        0x3 
-                0x000000000008f044                __rodata_end__ = .
+                0x000000000008fa24                . = ALIGN (0x4)
+ *fill*         0x000000000008fa21        0x3 
+                0x000000000008fa24                __rodata_end__ = .
 
-.rela.dyn       0x000000000008f048        0x0
- .rela.iplt     0x000000000008f048        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
- .rela.text     0x000000000008f048        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+.rela.dyn       0x000000000008fa28        0x0
+ .rela.iplt     0x000000000008fa28        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
  .rela.text.startup
-                0x000000000008f048        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+                0x000000000008fa28        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+ .rela.text     0x000000000008fa28        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
  .rela.text._sbrk_r
-                0x000000000008f048        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+                0x000000000008fa28        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
 
-.data           0x000000000008f048     0x14e8
-                0x000000000008f048                . = ALIGN (0x4)
-                0x000000000008f048                __data_start__ = .
+.data           0x000000000008fa28     0x14e8
+                0x000000000008fa28                . = ALIGN (0x4)
+                0x000000000008fa28                __data_start__ = .
  *(.data .data.* .gnu.linkonce.d.*)
  .data.smartstart64
-                0x000000000008f048       0x18 C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
-                0x000000000008f048                RPi_IO_Base_Addr
-                0x000000000008f04c                RPi_BootAddr
-                0x000000000008f050                RPi_CoresReady
-                0x000000000008f054                RPi_CPUBootMode
-                0x000000000008f058                RPi_CpuId
-                0x000000000008f05c                RPi_CompileMode
- .data          0x000000000008f060        0x4 C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
- *fill*         0x000000000008f064        0x4 
- .data          0x000000000008f068      0x3a8 C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
- .data          0x000000000008f410        0x8 C:\Users\isheik\AppData\Local\Temp\ccWECum1.o
-                0x000000000008f410                curr_y
-                0x000000000008f414                curr_x
+                0x000000000008fa28       0x18 C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+                0x000000000008fa28                RPi_IO_Base_Addr
+                0x000000000008fa2c                RPi_BootAddr
+                0x000000000008fa30                RPi_CoresReady
+                0x000000000008fa34                RPi_CPUBootMode
+                0x000000000008fa38                RPi_CpuId
+                0x000000000008fa3c                RPi_CompileMode
+ .data          0x000000000008fa40        0x4 C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+ *fill*         0x000000000008fa44        0x4 
+ .data          0x000000000008fa48      0x3a8 C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+ .data          0x000000000008fdf0        0x8 C:\Users\isheik\AppData\Local\Temp\cc9b2l0a.o
+                0x000000000008fdf0                curr_y
+                0x000000000008fdf4                curr_x
  .data.__global_locale
-                0x000000000008f418      0x1a8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
-                0x000000000008f418                __global_locale
+                0x000000000008fdf8      0x1a8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
+                0x000000000008fdf8                __global_locale
  .data.__malloc_av_
-                0x000000000008f5c0      0x810 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008f5c0                __malloc_av_
+                0x000000000008ffa0      0x810 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x000000000008ffa0                __malloc_av_
  .data.__malloc_sbrk_base
-                0x000000000008fdd0        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008fdd0                __malloc_sbrk_base
+                0x00000000000907b0        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x00000000000907b0                __malloc_sbrk_base
  .data.__malloc_trim_threshold
-                0x000000000008fdd8        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
-                0x000000000008fdd8                __malloc_trim_threshold
+                0x00000000000907b8        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
+                0x00000000000907b8                __malloc_trim_threshold
  .data._impure_ptr
-                0x000000000008fde0        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
-                0x000000000008fde0                _impure_ptr
+                0x00000000000907c0        0x8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
+                0x00000000000907c0                _impure_ptr
  .data.impure_data
-                0x000000000008fde8      0x748 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
+                0x00000000000907c8      0x748 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
  *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
-                0x0000000000090530                . = ALIGN (0x4)
-                0x0000000000090530                __data_end__ = .
+                0x0000000000090f10                . = ALIGN (0x4)
+                0x0000000000090f10                __data_end__ = .
 
-.igot.plt       0x0000000000090530        0x0
- .igot.plt      0x0000000000090530        0x0 C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
+.igot.plt       0x0000000000090f10        0x0
+ .igot.plt      0x0000000000090f10        0x0 C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
 
-.data1          0x0000000000090530        0x0
-                0x0000000000090530                . = ALIGN (0x10)
-                0x0000000000090530                __data1_start__ = .
+.data1          0x0000000000090f10        0x0
+                0x0000000000090f10                . = ALIGN (0x10)
+                0x0000000000090f10                __data1_start__ = .
  *(.data1 .data1.*)
  *(.rel.data1 .rel.data1.*)
-                0x0000000000090530                . = ALIGN (0x10)
-                0x0000000000090530                __data1_end__ = .
+                0x0000000000090f10                . = ALIGN (0x10)
+                0x0000000000090f10                __data1_end__ = .
 
-.stack          0x0000000000090530     0xc200
-                0x0000000000090530                . = ALIGN (0x10)
-                0x0000000000090530                __stack_start__ = .
-                0x0000000000090730                . = (. + 0x200)
- *fill*         0x0000000000090530      0x200 
-                0x0000000000090730                __EL0_stack_core0 = .
-                0x0000000000098730                . = (. + 0x8000)
- *fill*         0x0000000000090730     0x8000 
-                0x0000000000098730                __EL1_stack_core0 = .
-                0x000000000009c730                . = (. + 0x4000)
- *fill*         0x0000000000098730     0x4000 
-                0x000000000009c730                __EL2_stack_core0 = .
-                0x000000000009c730                . = ALIGN (0x10)
-                0x000000000009c730                __stack_end__ = .
+.stack          0x0000000000090f10     0xc200
+                0x0000000000090f10                . = ALIGN (0x10)
+                0x0000000000090f10                __stack_start__ = .
+                0x0000000000091110                . = (. + 0x200)
+ *fill*         0x0000000000090f10      0x200 
+                0x0000000000091110                __EL0_stack_core0 = .
+                0x0000000000099110                . = (. + 0x8000)
+ *fill*         0x0000000000091110     0x8000 
+                0x0000000000099110                __EL1_stack_core0 = .
+                0x000000000009d110                . = (. + 0x4000)
+ *fill*         0x0000000000099110     0x4000 
+                0x000000000009d110                __EL2_stack_core0 = .
+                0x000000000009d110                . = ALIGN (0x10)
+                0x000000000009d110                __stack_end__ = .
 
-.stack_core1    0x000000000009c730     0x1400
-                0x000000000009c730                . = ALIGN (0x10)
-                0x000000000009c730                __stack_start_core1__ = .
-                0x000000000009c930                . = (. + 0x200)
- *fill*         0x000000000009c730      0x200 
-                0x000000000009c930                __EL0_stack_core1 = .
-                0x000000000009cb30                . = (. + 0x200)
- *fill*         0x000000000009c930      0x200 
-                0x000000000009cb30                __EL1_stack_core1 = .
-                0x000000000009db30                . = (. + 0x1000)
- *fill*         0x000000000009cb30     0x1000 
-                0x000000000009db30                __EL2_stack_core1 = .
-                0x000000000009db30                . = ALIGN (0x10)
-                0x000000000009db30                __stack_end_core1__ = .
+.stack_core1    0x000000000009d110     0x1400
+                0x000000000009d110                . = ALIGN (0x10)
+                0x000000000009d110                __stack_start_core1__ = .
+                0x000000000009d310                . = (. + 0x200)
+ *fill*         0x000000000009d110      0x200 
+                0x000000000009d310                __EL0_stack_core1 = .
+                0x000000000009d510                . = (. + 0x200)
+ *fill*         0x000000000009d310      0x200 
+                0x000000000009d510                __EL1_stack_core1 = .
+                0x000000000009e510                . = (. + 0x1000)
+ *fill*         0x000000000009d510     0x1000 
+                0x000000000009e510                __EL2_stack_core1 = .
+                0x000000000009e510                . = ALIGN (0x10)
+                0x000000000009e510                __stack_end_core1__ = .
 
-.stack_core2    0x000000000009db30     0x1400
-                0x000000000009db30                . = ALIGN (0x10)
-                0x000000000009db30                __stack_start_core2__ = .
-                0x000000000009dd30                . = (. + 0x200)
- *fill*         0x000000000009db30      0x200 
-                0x000000000009dd30                __EL0_stack_core2 = .
-                0x000000000009df30                . = (. + 0x200)
- *fill*         0x000000000009dd30      0x200 
-                0x000000000009df30                __EL1_stack_core2 = .
-                0x000000000009ef30                . = (. + 0x1000)
- *fill*         0x000000000009df30     0x1000 
-                0x000000000009ef30                __EL2_stack_core2 = .
-                0x000000000009ef30                . = ALIGN (0x10)
-                0x000000000009ef30                __stack_end_core2__ = .
+.stack_core2    0x000000000009e510     0x1400
+                0x000000000009e510                . = ALIGN (0x10)
+                0x000000000009e510                __stack_start_core2__ = .
+                0x000000000009e710                . = (. + 0x200)
+ *fill*         0x000000000009e510      0x200 
+                0x000000000009e710                __EL0_stack_core2 = .
+                0x000000000009e910                . = (. + 0x200)
+ *fill*         0x000000000009e710      0x200 
+                0x000000000009e910                __EL1_stack_core2 = .
+                0x000000000009f910                . = (. + 0x1000)
+ *fill*         0x000000000009e910     0x1000 
+                0x000000000009f910                __EL2_stack_core2 = .
+                0x000000000009f910                . = ALIGN (0x10)
+                0x000000000009f910                __stack_end_core2__ = .
 
-.stack_core3    0x000000000009ef30     0x1400
-                0x000000000009ef30                . = ALIGN (0x10)
-                0x000000000009ef30                __stack_start_core3__ = .
-                0x000000000009f130                . = (. + 0x200)
- *fill*         0x000000000009ef30      0x200 
-                0x000000000009f130                __EL0_stack_core3 = .
-                0x000000000009f330                . = (. + 0x200)
- *fill*         0x000000000009f130      0x200 
-                0x000000000009f330                __EL1_stack_core3 = .
-                0x00000000000a0330                . = (. + 0x1000)
- *fill*         0x000000000009f330     0x1000 
-                0x00000000000a0330                __EL2_stack_core3 = .
-                0x00000000000a0330                . = ALIGN (0x10)
-                0x00000000000a0330                __stack_end_core3__ = .
+.stack_core3    0x000000000009f910     0x1400
+                0x000000000009f910                . = ALIGN (0x10)
+                0x000000000009f910                __stack_start_core3__ = .
+                0x000000000009fb10                . = (. + 0x200)
+ *fill*         0x000000000009f910      0x200 
+                0x000000000009fb10                __EL0_stack_core3 = .
+                0x000000000009fd10                . = (. + 0x200)
+ *fill*         0x000000000009fb10      0x200 
+                0x000000000009fd10                __EL1_stack_core3 = .
+                0x00000000000a0d10                . = (. + 0x1000)
+ *fill*         0x000000000009fd10     0x1000 
+                0x00000000000a0d10                __EL2_stack_core3 = .
+                0x00000000000a0d10                . = ALIGN (0x10)
+                0x00000000000a0d10                __stack_end_core3__ = .
 
 .ARM.attributes
  *(.ARM.attributes)
 
-.Heap           0x00000000000a0330        0x0
-                0x00000000000a0330                . = ALIGN (0x4)
-                0x00000000000a0330                __heap_start__ = .
-                0x00000000000a0330                __end__ = .
+.Heap           0x00000000000a0d10        0x0
+                0x00000000000a0d10                . = ALIGN (0x4)
+                0x00000000000a0d10                __heap_start__ = .
+                0x00000000000a0d10                __end__ = .
                 [!provide]                        PROVIDE (__end__ = .)
-                0x00000000000a0330                _end = .
+                0x00000000000a0d10                _end = .
                 [!provide]                        PROVIDE (end = .)
 
 /DISCARD/
@@ -764,69 +761,78 @@ Linker script and memory map
  *(.note.GNU-stack)
  *(.gnu_debuglink)
  *(.gnu.lto_*)
-LOAD C:\Users\isheik\AppData\Local\Temp\cckCZfcs.o
-LOAD C:\Users\isheik\AppData\Local\Temp\ccl9a4zg.o
-LOAD C:\Users\isheik\AppData\Local\Temp\ccDQnej6.o
-LOAD C:\Users\isheik\AppData\Local\Temp\ccE05Sec.o
-LOAD C:\Users\isheik\AppData\Local\Temp\ccAJPuBk.o
-LOAD C:\Users\isheik\AppData\Local\Temp\cc8nN7VY.o
-LOAD C:\Users\isheik\AppData\Local\Temp\ccWECum1.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccalvz8p.o
+LOAD C:\Users\isheik\AppData\Local\Temp\cccCOcUx.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccKtIf2N.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccWRKTI4.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccGfWEIZ.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccflx0IZ.o
+LOAD C:\Users\isheik\AppData\Local\Temp\cc4O4dOO.o
+LOAD C:\Users\isheik\AppData\Local\Temp\ccTCQdbZ.o
+LOAD C:\Users\isheik\AppData\Local\Temp\cc9b2l0a.o
 LOAD c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a
 LOAD c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libm.a
 LOAD c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libgcc.a
 OUTPUT(output/kernel_rp3.elf elf64-littleaarch64)
 
-.debug_info     0x0000000000000000     0xb753
+.debug_info     0x0000000000000000     0xc16f
  .debug_info    0x0000000000000000     0x2011 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_info    0x0000000000002011      0x9d6 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
  .debug_info    0x00000000000029e7      0xf8b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
  .debug_info    0x0000000000003972     0x1563 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
  .debug_info    0x0000000000004ed5       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
- .debug_info    0x0000000000004f03      0x971 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
- .debug_info    0x0000000000005874      0xb1d c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
- .debug_info    0x0000000000006391      0xa0e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
- .debug_info    0x0000000000006d9f       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
- .debug_info    0x0000000000006dcd       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
- .debug_info    0x0000000000006dfb       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
- .debug_info    0x0000000000006e29      0xfba c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
- .debug_info    0x0000000000007de3     0x1314 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
- .debug_info    0x00000000000090f7      0xf05 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
- .debug_info    0x0000000000009ffc      0xdef c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
- .debug_info    0x000000000000adeb      0x93a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
- .debug_info    0x000000000000b725       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000004f03       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_info    0x0000000000004f31      0x971 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+ .debug_info    0x00000000000058a2      0xb1d c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+ .debug_info    0x00000000000063bf      0xa0e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000006dcd      0x9c0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+ .debug_info    0x000000000000778d       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+ .debug_info    0x00000000000077bb       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
+ .debug_info    0x00000000000077e9       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
+ .debug_info    0x0000000000007817       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000007845       0x2e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+ .debug_info    0x0000000000007873      0xfba c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_info    0x000000000000882d     0x1314 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_info    0x0000000000009b41      0xf05 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_info    0x000000000000aa46      0xdef c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_info    0x000000000000b835      0x93a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
 
-.debug_abbrev   0x0000000000000000     0x20d6
+.debug_abbrev   0x0000000000000000     0x2339
  .debug_abbrev  0x0000000000000000      0x414 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_abbrev  0x0000000000000414      0x23f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
  .debug_abbrev  0x0000000000000653      0x330 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
  .debug_abbrev  0x0000000000000983      0x388 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
  .debug_abbrev  0x0000000000000d0b       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
- .debug_abbrev  0x0000000000000d1f      0x20e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
- .debug_abbrev  0x0000000000000f2d      0x2c9 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
- .debug_abbrev  0x00000000000011f6      0x25f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
- .debug_abbrev  0x0000000000001455       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
- .debug_abbrev  0x0000000000001469       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
- .debug_abbrev  0x000000000000147d       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
- .debug_abbrev  0x0000000000001491      0x297 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
- .debug_abbrev  0x0000000000001728      0x2ce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
- .debug_abbrev  0x00000000000019f6      0x22d c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
- .debug_abbrev  0x0000000000001c23      0x2d8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
- .debug_abbrev  0x0000000000001efb      0x1c7 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
- .debug_abbrev  0x00000000000020c2       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000d1f       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000d33      0x20e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000000f41      0x2c9 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+ .debug_abbrev  0x000000000000120a      0x25f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000001469      0x23b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+ .debug_abbrev  0x00000000000016a4       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+ .debug_abbrev  0x00000000000016b8       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
+ .debug_abbrev  0x00000000000016cc       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
+ .debug_abbrev  0x00000000000016e0       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00000000000016f4       0x14 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+ .debug_abbrev  0x0000000000001708      0x297 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_abbrev  0x000000000000199f      0x2ce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_abbrev  0x0000000000001c6d      0x22d c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_abbrev  0x0000000000001e9a      0x2d8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_abbrev  0x0000000000002172      0x1c7 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
 
-.debug_loc      0x0000000000000000     0x648f
+.debug_loc      0x0000000000000000     0x65bd
  .debug_loc     0x0000000000000000     0x1506 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_loc     0x0000000000001506       0xa4 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
  .debug_loc     0x00000000000015aa     0x181b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
  .debug_loc     0x0000000000002dc5     0x166d c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
  .debug_loc     0x0000000000004432      0x24a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
  .debug_loc     0x000000000000467c       0xe1 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
- .debug_loc     0x000000000000475d       0xce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
- .debug_loc     0x000000000000482b     0x1157 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
- .debug_loc     0x0000000000005982       0x81 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
- .debug_loc     0x0000000000005a03      0xa8c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_loc     0x000000000000475d      0x12e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+ .debug_loc     0x000000000000488b       0xce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_loc     0x0000000000004959     0x1157 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_loc     0x0000000000005ab0       0x81 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_loc     0x0000000000005b31      0xa8c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
 
-.debug_aranges  0x0000000000000000      0x460
+.debug_aranges  0x0000000000000000      0x4f0
  .debug_aranges
                 0x0000000000000000       0xa0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_aranges
@@ -838,31 +844,37 @@ OUTPUT(output/kernel_rp3.elf elf64-littleaarch64)
  .debug_aranges
                 0x0000000000000190       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
  .debug_aranges
-                0x00000000000001c0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+                0x00000000000001c0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
  .debug_aranges
-                0x00000000000001f0       0x40 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+                0x00000000000001f0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
  .debug_aranges
-                0x0000000000000230       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+                0x0000000000000220       0x40 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
  .debug_aranges
-                0x0000000000000260       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+                0x0000000000000260       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
  .debug_aranges
-                0x0000000000000290       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+                0x0000000000000290       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
  .debug_aranges
-                0x00000000000002c0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+                0x00000000000002c0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
  .debug_aranges
-                0x00000000000002f0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+                0x00000000000002f0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
  .debug_aranges
-                0x0000000000000320       0x80 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+                0x0000000000000320       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
  .debug_aranges
-                0x00000000000003a0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+                0x0000000000000350       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
  .debug_aranges
-                0x00000000000003d0       0x40 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+                0x0000000000000380       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
  .debug_aranges
-                0x0000000000000410       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
+                0x00000000000003b0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
  .debug_aranges
-                0x0000000000000430       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+                0x00000000000003e0       0x80 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_aranges
+                0x0000000000000460       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_aranges
+                0x0000000000000490       0x40 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_aranges
+                0x00000000000004d0       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
 
-.debug_ranges   0x0000000000000000      0x500
+.debug_ranges   0x0000000000000000      0x520
  .debug_ranges  0x0000000000000000      0x1c0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_ranges  0x00000000000001c0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
  .debug_ranges  0x00000000000001f0       0x80 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
@@ -870,31 +882,35 @@ OUTPUT(output/kernel_rp3.elf elf64-littleaarch64)
  .debug_ranges  0x0000000000000370       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
  .debug_ranges  0x0000000000000390       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
  .debug_ranges  0x00000000000003c0       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
- .debug_ranges  0x00000000000003e0       0x60 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
- .debug_ranges  0x0000000000000440       0x70 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
- .debug_ranges  0x00000000000004b0       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
- .debug_ranges  0x00000000000004d0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_ranges  0x00000000000003e0       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+ .debug_ranges  0x0000000000000400       0x60 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_ranges  0x0000000000000460       0x70 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_ranges  0x00000000000004d0       0x20 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_ranges  0x00000000000004f0       0x30 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
 
-.debug_line     0x0000000000000000     0x48ea
+.debug_line     0x0000000000000000     0x4dd9
  .debug_line    0x0000000000000000      0xc84 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
  .debug_line    0x0000000000000c84      0x2b8 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
  .debug_line    0x0000000000000f3c      0x99a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mallocr.o)
  .debug_line    0x00000000000018d6      0xb67 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
  .debug_line    0x000000000000243d      0x11f c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
- .debug_line    0x000000000000255c      0x1ff c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
- .debug_line    0x000000000000275b      0x37b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
- .debug_line    0x0000000000002ad6      0x2d0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
- .debug_line    0x0000000000002da6       0xfc c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
- .debug_line    0x0000000000002ea2      0x119 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
- .debug_line    0x0000000000002fbb       0xfe c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
- .debug_line    0x00000000000030b9      0x3ce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
- .debug_line    0x0000000000003487      0x781 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
- .debug_line    0x0000000000003c08      0x35a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
- .debug_line    0x0000000000003f62      0x66c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
- .debug_line    0x00000000000045ce      0x1e3 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
- .debug_line    0x00000000000047b1      0x139 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_line    0x000000000000255c      0x139 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000002695      0x1ff c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+ .debug_line    0x0000000000002894      0x37b c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+ .debug_line    0x0000000000002c0f      0x2d0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000002edf      0x2d1 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+ .debug_line    0x00000000000031b0       0xfc c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+ .debug_line    0x00000000000032ac       0xf0 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
+ .debug_line    0x000000000000339c      0x12e c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
+ .debug_line    0x00000000000034ca      0x119 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+ .debug_line    0x00000000000035e3       0xfe c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+ .debug_line    0x00000000000036e1      0x3ce c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_line    0x0000000000003aaf      0x781 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_line    0x0000000000004230      0x35a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_line    0x000000000000458a      0x66c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_line    0x0000000000004bf6      0x1e3 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
 
-.debug_str      0x0000000000000000     0x1938
+.debug_str      0x0000000000000000     0x1b8e
  .debug_str     0x0000000000000000      0x9f6 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-locale.o)
                                         0xb50 (size before relaxing)
  .debug_str     0x00000000000009f6      0x14a c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-malloc.o)
@@ -904,27 +920,33 @@ OUTPUT(output/kernel_rp3.elf elf64-littleaarch64)
  .debug_str     0x0000000000000dd8      0x1d2 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mbtowc_r.o)
                                         0xada (size before relaxing)
  .debug_str     0x0000000000000faa      0x147 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memcpy.o)
- .debug_str     0x00000000000010f1       0xa1 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
+ .debug_str     0x00000000000010f1       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x0000000000001183       0xa1 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-mlock.o)
                                         0x63b (size before relaxing)
- .debug_str     0x0000000000001192      0x150 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
+ .debug_str     0x0000000000001224      0x150 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-reent.o)
                                         0x64b (size before relaxing)
- .debug_str     0x00000000000012e2       0x9c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
+ .debug_str     0x0000000000001374       0x9c c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-sbrkr.o)
                                         0x652 (size before relaxing)
- .debug_str     0x000000000000137e       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
+ .debug_str     0x0000000000001410      0x132 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcat.o)
+                                        0x61e (size before relaxing)
+ .debug_str     0x0000000000001542       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strchr.o)
                                         0x147 (size before relaxing)
- .debug_str     0x0000000000001410       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+ .debug_str     0x00000000000015d4       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcmp.o)
                                         0x147 (size before relaxing)
- .debug_str     0x00000000000014a2       0x93 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
+ .debug_str     0x0000000000001666       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strcpy.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x00000000000016f8       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strlen.o)
+                                        0x147 (size before relaxing)
+ .debug_str     0x000000000000178a       0x93 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-strnlen.o)
                                         0x148 (size before relaxing)
- .debug_str     0x0000000000001535       0x95 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
+ .debug_str     0x000000000000181d       0x95 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctob.o)
                                         0x986 (size before relaxing)
- .debug_str     0x00000000000015ca       0xef c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
+ .debug_str     0x00000000000018b2       0xef c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-wctomb_r.o)
                                         0x9fd (size before relaxing)
- .debug_str     0x00000000000016b9      0x125 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
+ .debug_str     0x00000000000019a1      0x125 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-ctype_.o)
                                         0x93b (size before relaxing)
- .debug_str     0x00000000000017de       0x34 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
+ .debug_str     0x0000000000001ac6       0x34 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-freer.o)
                                         0x7f0 (size before relaxing)
- .debug_str     0x0000000000001812       0x94 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
+ .debug_str     0x0000000000001afa       0x94 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-impure.o)
                                         0x60f (size before relaxing)
- .debug_str     0x00000000000018a6       0x92 c:/program files (x86)/gnu arm aarch64/bin/../lib/gcc/aarch64-elf/8.2.1\libc.a(lib_a-memset.o)
-                                        0x147 (size before relaxing)
