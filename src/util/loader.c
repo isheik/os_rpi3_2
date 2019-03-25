@@ -10,21 +10,23 @@
 #include "console.h"
 #include "loader.h"
 
-uint8_t* loadBinaryFromFile(char *filePath) {
+uint8_t* loadBinaryFromFile(char *filePath, uint32_t *fSize) {
     HANDLE fHandle = sdCreateFile(filePath, GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
     uint8_t *buffer = NULL;
 
     if (fHandle) {
-        uint32_t fSize = sdGetFileSize(fHandle, NULL);
+        *fSize = sdGetFileSize(fHandle, NULL);
 
         uint32_t bytesRead;
-        buffer = malloc(fSize + 1);
+        buffer = malloc(*fSize + 1);
 
-        sdReadFile(fHandle, &buffer[0], fSize, &bytesRead, 0);
+        sdReadFile(fHandle, &buffer[0], *fSize, &bytesRead, 0);
 
         sdCloseHandle(fHandle);
+
+        return buffer;
     }
 
-    return buffer;
+    return 0;
 }
 

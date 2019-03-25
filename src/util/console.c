@@ -10,7 +10,7 @@
 
 void DisplayDirectory(const char*);
 void dump(char *filePath);
-uint8_t* loadBinaryFromFile(char *filePath);
+//uint8_t* loadBinaryFromFile(char *filePath);
 
 void runConsole()
 {
@@ -20,7 +20,6 @@ void runConsole()
     char linebuffer[1024] = { '\0' };
     size_t index = 0;
     char currdirr[1024] = { '\0' };
-    char buffer[1024];
 
 
     long long cyclecounter = 0;
@@ -42,39 +41,34 @@ void runConsole()
             {
                 printf("Kernel               ---  .::|[O-SU]|::. \nCPU ARCHITECTURE     ---    aarch_64\nThe System Has Been Running for %d cycles\n",cyclecounter);
             }
-
-            // ls command
             else if(strcmp(linebuffer,"ls")==0)
             {
+                // ls command
                 char dirbuff[1024] = { '\0' };
                 sprintf(dirbuff,"%s\\*.*",currdirr);
                 DisplayDirectory(dirbuff);
             }
-            // cd command
             else if(linebuffer[0] == 'c' && linebuffer[1] == 'd' && linebuffer[2] ==' ')
             {
+                // cd command
                 strcpy(currdirr,strcat(currdirr,linebuffer+3));
                 printf("%s\n", currdirr);
             }
-            
-            // cat command
             else if(linebuffer[0] == 'c' && linebuffer[1] == 'a' && linebuffer[2] == 't' && linebuffer[3] == ' ')
             {
+                // cat command
                 char filename[1024] = { '\0' };
-                strcpy(filename,linebuffer+4);
-                //strcpy(currdirr,strcat(currdirr,linebuffer+4));
+                sprintf(filename,"%s\\%s",currdirr,linebuffer+4);
                 
                 HANDLE fHandle = sdCreateFile(filename, GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
                 if (fHandle != 0)
                 {
                     uint32_t bytesRead;
                     uint32_t fSize = sdGetFileSize(fHandle, NULL);
+                    char buffer[1024] = { '\0' };
 
-                    
-//                    if ((sdReadFile(fHandle, &buffer[0], 500, &bytesRead, 0) == true))
                     if ((sdReadFile(fHandle, &buffer[0], fSize, &bytesRead, 0) == true))
                     {
-                            //buffer[bytesRead+1] = '\0';  ///insert null char
                             printf("File Contents: %s\n", &buffer[0]);
                     }
                     else
@@ -89,41 +83,18 @@ void runConsole()
                     printf( "No such file\n" );                    
                 }
             }
-
-            // dump command
             else if(linebuffer[0] == 'd' && linebuffer[1] == 'u' && linebuffer[2] =='m' && linebuffer[3] =='p' && linebuffer[4] ==' ')
             {
+                // dump command
                 char filename[1024] = { '\0' };
-                strcpy(filename,linebuffer+5);
-//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
-
-
-                //strcpy(currdirr,strcat(currdirr,linebuffer+3));
-                //printf("dump");
+                sprintf(filename,"%s\\%s",currdirr,linebuffer+5);
                 dump(filename);
             }
-
-            // exec command
-            else if(linebuffer[0] == 'e' && linebuffer[1] == 'x' && linebuffer[2] =='e' && linebuffer[3] =='c' && linebuffer[4] ==' ')
-            {
-                char filename[1024] = { '\0' };
-                strcpy(filename,linebuffer+5);
-//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
-
-                char *buf;
-                int ret;
-                buf = loadBinaryFromFile(filename);
-                ret = ((int (*)(void))buf)();
-                printf( "%d", ret );
-
-            }
-
-            // if inputted app exists, execute it
             else if(linebuffer[0] != '\0') 
             {
+                // if inputted app exists, execute it
                 char filename[1024] = { '\0' };
-                strcpy(filename,linebuffer);
-//                strcpy(currdirr,strcat(currdirr,linebuffer+5));
+                sprintf(filename,"%s\\%s",currdirr,linebuffer);
 
                 HANDLE fh = 0;
                 FIND_DATA find;
@@ -132,16 +103,17 @@ void runConsole()
                 {
                     char *buf;
                     int ret;
-                    buf = loadBinaryFromFile(filename);
+                    uint32_t *fSize;
+                    buf = loadBinaryFromFile(filename, fSize);
                     ret = ((int (*)(void))buf)();
                     printf( "Return value from app: %d\n", ret );
                     free(buf);
+                    free(fSize);
                 }
                 else {
                     printf( "No such file\n" );                    
                 }
             }
-
 
             memset(linebuffer,'\0',1024);
             index = 0;
@@ -183,30 +155,26 @@ void DisplayDirectory(const char* dirName) {
 }
 
 void dump(char *filePath) {
-    HANDLE fHandle = sdCreateFile(filePath, GENERIC_READ, 0, 0, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, 0);
     uint8_t *buffer = NULL;
+    uint32_t *fSize;
+    uint32_t bytesRead;
+    
+    buffer = loadBinaryFromFile(filePath, fSize);
+    if(buffer != 0) {
+        printf("Text version:\n");
+        for(uint32_t i = 0; i <= *fSize; i++) {
+            printf("%c ", *(buffer+i));
+        }
 
-    if (fHandle) {
-            uint32_t fSize = sdGetFileSize(fHandle, NULL);
-            printf("filesize in uint8_t is: %i\n", (uint8_t) fSize);
-
-            uint32_t bytesRead;
-            buffer = malloc(fSize + 1);
-
-            sdReadFile(fHandle, &buffer[0], fSize, &bytesRead, 0);
-
-            sdCloseHandle(fHandle);
-            
-            printf("Text version:\n");
-            for(uint8_t i = 0; i <= (uint8_t)fSize; i++) {
-                printf("%c ", *(buffer+i));
-            }
-
-            printf("\nHex:\n");
-            for(uint8_t i = 0; i <= (uint8_t)fSize; i++) {
-                printf("%02X ", *(buffer+i));
-            }
-            printf("\n");
-            free(buffer);
+        printf("\nHex:\n");
+        for(uint32_t i = 0; i <= *fSize; i++) {
+            printf("%02X ", *(buffer+i));
+        }
+        printf("\n");
+        free(buffer);
+        free(fSize);
+    }
+    else {
+        printf( "No such file\n" );                    
     }
 }
