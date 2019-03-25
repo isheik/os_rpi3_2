@@ -15,7 +15,8 @@
 #include "hal/hal.h"
 #include "util/console.h"
 
-int main (void) {
+int main (void) 
+{
 	PiConsole_Init(0, 0, 0, &printf);								// Auto resolution console, show resolution to screen
 
 	displaySmartStart(&printf);
